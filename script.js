@@ -31,7 +31,7 @@ form.addEventListener("submit", function (e) {
   alert(`${userId}님, 회원가입이 완료되었습니다.`);
 
   // GA4로 user_id 전송
-  gtag("config", "G-XXXXXXX", {
+  gtag("config", "G-PEYL4DRNHH", {
     user_id: userId,
   });
 
